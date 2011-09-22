@@ -7,7 +7,7 @@ vf-add=screenshot # allows screen shots
 #subfont-osd-scale=3
 fontconfig=yes 
 double=yes
-#quiet=yes        
+quiet=yes        
 really-quiet=yes   
 volume=10
 #converts 5 ch flac to 2 ch
@@ -45,6 +45,13 @@ geometry=0:0
 xy=480
 subfont-text-scale=1
 
+[tt]
+profile-desc="480p and placed at top right"
+noontop=yes
+#vf=scale=480:320 bad since it does not scale well
+geometry=100%:0
+xy=480
+subfont-text-scale=1
 
 [fss]
 profile-desc="Fullscreen 16:10 aspect and bigger OSD on second screen"
