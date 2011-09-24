@@ -8,7 +8,7 @@ vf-add=screenshot # allows screen shots
 fontconfig=yes 
 double=yes
 quiet=yes        
-really-quiet=yes   
+#really-quiet=yes   
 volume=10
 #converts 5 ch flac to 2 ch
 # af-pan=2:1:0:0:1:1:0:0:1:0.5:0.5:1:1
