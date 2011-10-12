@@ -30,6 +30,18 @@ profile-desc="Puts the file on the second screen with full screen"
 vo=corevideo:device_id=1
 fs=yes
 
+[1]
+profile-desc="Puts the file on the first screen with full screen"
+vo=corevideo:device_id=0
+xy=1920
+aspect=16:10
+
+[2]
+profile-desc="Puts the file on the second screen with full screen"
+vo=corevideo:device_id=1
+xy=1440
+aspect=16:10
+
 [T]
 profile-desc="Always ontop with 480p and placed at top left"
 ontop=yes
